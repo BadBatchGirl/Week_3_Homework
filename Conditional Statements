@@ -1,0 +1,42 @@
+user_input = int(input("Enter a number between 1 -12 "))
+month_one = "1"
+month_two = "2"
+month_three = "3"
+month_four = "4"
+month_five = "5"
+month_six = "6"
+month_seven = "7"
+month_eight = "8"
+month_nine = "9"
+month_ten = "10"
+month_eleven = "11"
+month_twelve = "12"
+
+if month_one == "1":
+    print(f"{month_one} January")
+elif month_two == "2": 
+    print(f"{month_two} February")
+elif month_three == "3": 
+    print(f"{month_three} March")
+elif month_four == "4":
+    print(f"{month_four} April")
+elif month_five == "5":
+    print(f"{month_five} May")
+elif month_six == "6":
+    print(f"{month_six} June")        
+elif month_seven == "7":
+    print(f"{month_seven} July")
+elif month_eight == "8":
+    print(f"{month_eight} August")
+elif month_nine == "9":
+    print(f"{month_nine} September")
+elif month_ten == "10":
+    print(f"{month_ten} October")
+elif month_eleven == "11":
+    print(f"{month_eleven} November")
+elif month_twelve <= "12":
+    print(f"{month_twelve} December")
+elif month_twelve > "12":
+    print("Enter a number between 1-12")  
+else:
+    print("Thank you")  
